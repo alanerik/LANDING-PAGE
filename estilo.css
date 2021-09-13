@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Monoton&display=swap');
+
+
+
+
+
+.inicio{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgb(10, 5, 5) 0%, rgb(24, 8, 8) 100%);
+}
+
+.navbar-brand{
+    font-family: 'Monoton', cursive; 
+    font-size: 40px;
+    font-weight: 500;
+    background: linear-gradient(to left, rgb(245, 12, 148), yellow, rgb(4, 207, 207));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-brand:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+
+.sub-header{
+   background-color: rgb(255, 125, 4);
+}
+
+.nav-link{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+   font-weight: 800;
+   font-family: 'Gloria Hallelujah', cursive;
+   transition: 0.5s;
+   
+}
+
+.nav-link:hover{
+    color: rgb(231, 17, 106);
+    transform: scale(1.1);
+    
+}
+
+
+.titulo{
+    font-family: 'Monoton', cursive;
+    font-size: 32px;
+    color: rgb(255, 250, 250);
+   
+}
+.parrafo{
+    font-size: 29px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: cornsilk;
+
+}
+
+
+
+.hero{
+    background: rgb(223,32,122);
+    background: linear-gradient(49deg, rgba(223,32,122,1) 4%, rgba(223,32,122,1) 40%, rgba(223,32,122,1) 100%);
+
+}
+
+
+.btn {
+    
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+    border: transparent;
+    
+   }
+
+   .btn-1 {
+    background-image: linear-gradient(to right, #b835a2 0%, #21a6c7 50%, #b835a2 100%);
+  }
+
+  .btn:hover {
+    background-position: right center ; /* change the direction of the change here */
+    color: rgb(238, 255, 6);
+  
+  }
+
+.box{
+    height:auto;
+    z-index: 1000;
+    position: sticky;
+
+}
+
+.Titulo-taller{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    font-family: 'Gloria Hallelujah', cursive; 
+}
+
+.about{
+    font-family: 'Gloria Hallelujah', cursive; 
+    font-size: 20px;
+}
+
+.social{
+    color: white;
+    font-size: 25px;
+}
+
+.firma{
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive; 
+    font-size: 20px;
+}
+
+.footer{
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
